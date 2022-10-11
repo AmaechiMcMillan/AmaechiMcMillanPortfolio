@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Student Bio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
     <!-- Site Header -->
     <header>
       <!--The h1 tag should be used for the most important heading-->
-      <h1>Amaechi McMillan</h1>
-      <h2>Software Developer</h2>
-      <nav>
+      <div class="topnav">
+        <a href="#about-me">About Me</a>
+        <a href="#my-projects">My Projects</a>
+        <a href="#contact">Contact Me</a>
+        <a href="#resume">Resume</a>
+      </div>
+      <!-- <nav>
         <ul>
           <li id="about me">ABOUT ME</li>
           <li id="my projects">MY PROJECTS</li>
           <li id="contact me">CONTACT ME</li>
           <li id="resume">RESUME</li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
-
+    
+    
     <!-- Section 1: Bio -->
-    <section>
-      <h2>Projects</h2>
+    <main>
+    
+    <section id="about-me">
+      <h1>About Me</h1>
+      <p>Hello, welcome to my professional portfolio.</p>
+    </section>
+    
+    <section id="projects">
+      <h2>My Projects</h2>
       <!-- Image -->
-      <img src="https://via.placeholder.com/200" alt="Your Name"/>
-      <img src="https://via.placeholder.com/200" alt="Your Name"/>
-      <img src="https://via.placeholder.com/200" alt="Your Name"/>
-      <!-- Paragraph with embedded link -->
-      <p>Write a short paragraph or two about yourself</p>
+      <img src="https://via.placeholder.com/200" alt="Your Name" />
+      <img src="https://via.placeholder.com/200" alt="Your Name" />
+      <img src="https://via.placeholder.com/200" alt="Your Name" />
     </section>
 
     <!-- Section 2: Contact Info -->
-    <section>
-      <h2>Contact Info</h2>
+    <section id="contact">
+      <h2>Contact Me</h2>
       <!-- Unordered list -->
       <ul>
-        <li><strong>Email:</strong> <a href="#">amaechimcmillan@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">https://github.com/AmaechiMcMillan</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+        <li>
+          <strong>Email:</strong> <a href="#">amaechimcmillan@gmail.com</a>
+        </li>
+        <li>
+          <strong>Github:</strong> <a href="#">https://github.com/AmaechiMcMillan</a>
+        </li>
+        <li>
+          <strong>Portfolio:</strong> <a href="#">coming soon</a>
+        </li>
       </ul>
     </section>
+    <!-- Paragraph with embedded link -->
+  </main>
   </body>
-
 </html>
